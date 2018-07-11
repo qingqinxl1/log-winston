@@ -36,8 +36,9 @@ try {
 }
 
 // 每日滚动日志创建并初始化配置信息
+var filename = config.logPath ? config.logPath + config.filename || 'log.%DATE%.log' : config.filename || 'log.%DATE%.log';
 var transport = new _winston.transports.DailyRotateFile({
-  filename: config.filename || 'log-%DATE%.log',
+  filename: filename,
   datePattern: config.datePattern || 'YYYY-MM-DD-HH',
   maxSize: config.maxSize,
   maxFiles: config.maxFiles

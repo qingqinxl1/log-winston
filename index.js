@@ -8,7 +8,6 @@ const myFormat = printf(info => {
   return `${info.timestamp} ${info.label ? '[' + info.label + ']' : ''} ${info.level}: ${info.message}`;
 });
 
-
 // 读取配置文件
 let config;
 try {
@@ -18,8 +17,10 @@ try {
 }
 
 // 每日滚动日志创建并初始化配置信息
+const filename = config.logPath ? (config.logPath + config.filename || 'log.%DATE%.log') : 
+    config.filename || 'log.%DATE%.log';
 const transport = new (transports.DailyRotateFile)({
-  filename: config.filename || 'log-%DATE%.log',
+  filename: filename,
   datePattern: config.datePattern || 'YYYY-MM-DD-HH',
   maxSize: config.maxSize,
   maxFiles: config.maxFiles,
