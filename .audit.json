@@ -14,6 +14,86 @@
             "date": 1530693719292,
             "name": "winston-demo-2018-07-04-16.log",
             "hash": "e4101a5b9f907ffe8fe16a4f60128eb1"
+        },
+        {
+            "date": 1530760348741,
+            "name": "winston-demo-2018-07-05-11.log",
+            "hash": "0f4d1e3ad526b5f6fe4914be0a50fa07"
+        },
+        {
+            "date": 1530760419566,
+            "name": "winston-demo-2018-07-05-11.log",
+            "hash": "a2a56e5da0e2b432f674e86b3fc0f98e"
+        },
+        {
+            "date": 1530760500781,
+            "name": "winston-demo-2018-07-05-11.log",
+            "hash": "85a4172178e7b5fc06baa7def0fbb46a"
+        },
+        {
+            "date": 1530761882045,
+            "name": "winston-demo-2018-07-05-11.log",
+            "hash": "6487e96f9249f3ab0f3a8fc79981b0e1"
+        },
+        {
+            "date": 1530762146419,
+            "name": "winston-demo-2018-07-05-11.log",
+            "hash": "14cd3e11db61e514214d7938de215170"
+        },
+        {
+            "date": 1530762293665,
+            "name": "winston-demo-2018-07-05-11.log",
+            "hash": "2dab5213725078c8c3461c9468908430"
+        },
+        {
+            "date": 1531295588552,
+            "name": "winston-demo-2018-07-11-15.log",
+            "hash": "2e50227910a89931f7b4d478fedc810e"
+        },
+        {
+            "date": 1531295675512,
+            "name": "winston-demo-2018-07-11-15.log",
+            "hash": "6d4b9dfb93b83424fbbdd33ea116cc70"
+        },
+        {
+            "date": 1531295727271,
+            "name": "winston-demo-2018-07-11-15.log",
+            "hash": "f25f4fa844173579cee40a12114f01fb"
+        },
+        {
+            "date": 1531296373048,
+            "name": "winston-demo-2018-07-11-16.log",
+            "hash": "3320950040d51c75d62bfcb4736361f7"
+        },
+        {
+            "date": 1531297546681,
+            "name": "winston-demo-2018-07-11-16.log",
+            "hash": "fda9dddf0059cfee452ae4989d6d83c2"
+        },
+        {
+            "date": 1531298388343,
+            "name": "winston-demo-2018-07-11-16.log",
+            "hash": "afe7eda7cdea36fa3d27aee42bdc9ac7"
+        },
+        {
+            "date": 1531298516288,
+            "name": "winston-demo-2018-07-11-16.log",
+            "hash": "fa2b77a9b2855a55255cc97e4eb1b5fd"
+        },
+        {
+            "date": 1531298785438,
+            "name": "winston-demo-2018-07-11-16.log",
+            "hash": "c879452eddc40d23819183cc34ee3864"
+        },
+        {
+            "date": 1531301330680,
+            "name": "log.2018-07-11.log",
+            "hash": "2d014635af32b388eee45a92a4d62a59"
+        },
+        {
+            "date": 1531301407336,
+            "name": "log.2018-07-11.log",
+            "hash": "fb2ed6c18efdbef13f9bd003e01caee3"
         }
     ]
 }
