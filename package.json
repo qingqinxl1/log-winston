@@ -1,7 +1,7 @@
 {
   "name": "log-winston",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "node log",
   "main": "index.js",
   "scripts": {
     "build": "./node_modules/.bin/babel ./index.js --out-file dist/index.js",
@@ -21,5 +21,6 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0"
-  }
+  },
+  "git": "https://github.com/qingqinxl1/log-winston"
 }
