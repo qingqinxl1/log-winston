@@ -1,0 +1,8 @@
+{
+  "logPath": "E:\\",
+  "filename": "log.%DATE%.log",
+  "datePattern": "YYYY-MM-DD",
+  "maxSize": "20m",
+  "maxFiles": "14d",
+  "label": "winston examples"
+}

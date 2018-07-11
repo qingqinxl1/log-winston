@@ -1,10 +1,11 @@
 {
-  "name": "winstonjs-demo",
-  "version": "1.0.0",
+  "name": "log-winston",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "./node_modules/.bin/babel ./index.js --out-file dist/index.js",
+    "demo": "./node_modules/.bin/babel ./examples/logprint.js --out-file ./examples/logprint_out.js && node ./examples/logprint_out.js"
   },
   "keywords": [
     "log",
@@ -16,5 +17,9 @@
   "dependencies": {
     "winston": "^3.0.0",
     "winston-daily-rotate-file": "^3.2.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
   }
 }

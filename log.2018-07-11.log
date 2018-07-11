@@ -1,0 +1,6 @@
+2018-07-11T09:28:50.673Z winston examples info: some description info
+2018-07-11T09:28:50.677Z winston examples warn: some warning
+2018-07-11T09:28:50.678Z winston examples error: something wrong and will be exit
+2018-07-11T09:30:07.330Z [winston examples] info: some description info
+2018-07-11T09:30:07.333Z [winston examples] warn: some warning
+2018-07-11T09:30:07.334Z [winston examples] error: something wrong and will be exit
