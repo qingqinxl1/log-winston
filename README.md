@@ -4,7 +4,9 @@
 
 2. 调用方式
 ```
-import logger from '../dist/index';
+import logger from 'log-winston';
+// 或者使用
+// const logger = require('log-winston/dist').default;
 
 logger.info('some description info');
 logger.warn('some warning');

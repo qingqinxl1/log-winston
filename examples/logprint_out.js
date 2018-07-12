@@ -1,15 +1,15 @@
 'use strict';
 
-var _index = require('../dist/index');
+var _dist = require('../dist');
 
-var _index2 = _interopRequireDefault(_index);
+var _dist2 = _interopRequireDefault(_dist);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_index2.default.silly('something silly');
-_index2.default.debug('something debug');
-_index2.default.verbose('something verbose');
-_index2.default.http('some http');
-_index2.default.info('some description info');
-_index2.default.warn('some warning');
-_index2.default.error('something wrong and will be exit');
+_dist2.default.silly('something silly');
+_dist2.default.debug('something debug');
+_dist2.default.verbose('something verbose');
+_dist2.default.http('some http');
+_dist2.default.info('some description info');
+_dist2.default.warn('some warning');
+_dist2.default.error('something wrong and will be exit');

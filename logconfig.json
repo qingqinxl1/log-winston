@@ -1,5 +1,5 @@
 {
-  "logPath": "E:\\",
+  "logPath": "",
   "filename": "log.%DATE%.log",
   "datePattern": "YYYY-MM-DD",
   "maxSize": "20m",

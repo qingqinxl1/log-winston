@@ -1,4 +1,4 @@
-import logger from '../dist/index';
+import logger from '../dist';
 logger.silly('something silly');
 logger.debug('something debug');
 logger.verbose('something verbose');
