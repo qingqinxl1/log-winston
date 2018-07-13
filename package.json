@@ -1,6 +1,6 @@
 {
   "name": "log-winston",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "node log",
   "main": "index.js",
   "scripts": {
